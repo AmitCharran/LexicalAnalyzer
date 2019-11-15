@@ -11,4 +11,30 @@ abstract class Load extends Instruction
     {
         return instName() + " " + index;
     }
+
+    static final class Fload extends Load
+    {
+        Fload(int i)
+        {
+            super(i);
+        }
+
+        String instName()
+        {
+            return "fload";
+        }
+    }
+
+    static final class Iload extends Load
+    {
+        Iload(int i)
+        {
+            super(i);
+        }
+
+        String instName()
+        {
+            return "iload";
+        }
+    }
 }

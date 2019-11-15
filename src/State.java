@@ -75,18 +75,18 @@ public enum State{
         }
         boolean isInstName(){
             // This checks to see if they are in the "special instruction name" list from above
-            // Anything in between Iconst and Print (inclusive)
+            // Anything in between Const.Iconst and Print (inclusive)
             // So in that instructionName list it does not include UNDEF
             return this.compareTo(State.Iconst) >= 0 && this.compareTo(State.Print) <= 0;
         }
         boolean isArithInstruction(){
             // in the "special instruction name" list
-            // instructions between Iadd and Fdiv (inclusive)
+            // instructions between ArithInst.Iadd and ArithInst.Fdiv (inclusive)
             return this.compareTo(State.Iadd) >= 0 && this.compareTo(State.Fdiv) <= 0;
         }
         boolean isCmpInstruction(){
             // All the compare instructions in the "special instruction name" list
-            // Instructions in between Icmpeq and Fcmpge
+            // Instructions in between CmpInst.Icmpeq and CmpInst.Fcmpge
             return this.compareTo(State.Icmpeq) >= 0 && this.compareTo(State.Fcmpge) <= 0;
         }
 

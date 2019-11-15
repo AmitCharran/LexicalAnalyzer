@@ -11,4 +11,30 @@ abstract class Store extends Instruction
     {
         return instName() + " " + index;
     }
+
+    static final class Istore extends Store
+    {
+        Istore(int i)
+        {
+            super(i);
+        }
+
+        String instName()
+        {
+            return "istore";
+        }
+    }
+
+    static final class Fstore extends Store
+    {
+        Fstore(int i)
+        {
+            super(i);
+        }
+
+        String instName()
+        {
+            return "fstore";
+        }
+    }
 }

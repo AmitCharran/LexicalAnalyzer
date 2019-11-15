@@ -53,18 +53,18 @@ public abstract class VM extends LexVM
 
     // The following classes have no field so a single object can be shared.
 
-    private static Iadd iadd = new Iadd();
-    private static Isub isub = new Isub();
-    private static Imul imul = new Imul();
-    private static Idiv idiv = new Idiv();
-    private static Fadd fadd = new Fadd();
-    private static Fsub fsub = new Fsub();
-    private static Fmul fmul = new Fmul();
-    private static Fdiv fdiv = new Fdiv();
+    private static ArithInst.Iadd iadd = new ArithInst.Iadd();
+    private static ArithInst.Isub isub = new ArithInst.Isub();
+    private static ArithInst.Imul imul = new ArithInst.Imul();
+    private static ArithInst.Idiv idiv = new ArithInst.Idiv();
+    private static ArithInst.Fadd fadd = new ArithInst.Fadd();
+    private static ArithInst.Fsub fsub = new ArithInst.Fsub();
+    private static ArithInst.Fmul fmul = new ArithInst.Fmul();
+    private static ArithInst.Fdiv fdiv = new ArithInst.Fdiv();
     private static IntToFloat intToFloat = new IntToFloat();
-    private static Return return_ = new Return();
-    private static IReturn ireturn = new IReturn();
-    private static FReturn freturn = new FReturn();
+    private static ReturnInst.Return return_ = new ReturnInst.Return();
+    private static ReturnInst.IReturn ireturn = new ReturnInst.IReturn();
+    private static ReturnInst.FReturn freturn = new ReturnInst.FReturn();
 
     private static boolean syntaxErrorFound = false;
     private static boolean errorFound = false;
@@ -88,7 +88,7 @@ public abstract class VM extends LexVM
 
     public static void instructionUnit()
     {
-        if ( state == State.UnsignedInt ) // a label is present
+        if ( state == State.UnsignedInt ) // a label is present // what is a label?
         {
             int label = Integer.parseInt(t);
             getToken();
@@ -110,13 +110,15 @@ public abstract class VM extends LexVM
                 getToken();
                 if ( state == State.UnsignedInt || state == State.SignedInt )
                 {
-                    instStore[i] = new Iconst(Integer.parseInt(t));
+                    instStore[i] = new Const.Iconst(Integer.parseInt(t));
                     getToken();
                 }
                 else
                     syntaxErrorMsg(2);
                 return;
             }
+
+            //is all these being checked for the next block of code?
             case Iload: case Istore: case Fload: case Fstore:
             case Icmpeq: case Icmpne: case Icmplt: case Icmple: case Icmpgt: case Icmpge:
             case Fcmpeq: case Fcmpne: case Fcmplt: case Fcmple: case Fcmpgt: case Fcmpge:
@@ -129,22 +131,22 @@ public abstract class VM extends LexVM
                 int t_int = Integer.parseInt(t);
                 switch( savedState )
                 {
-                    case Iload:  instStore[i] = new Iload(t_int);  break;
-                    case Istore: instStore[i] = new Istore(t_int); break;
-                    case Fload:  instStore[i] = new Fload(t_int);  break;
-                    case Fstore: instStore[i] = new Fstore(t_int); break;
-                    case Icmpeq: instStore[i] = new Icmpeq(t_int); break;
-                    case Icmpne: instStore[i] = new Icmpne(t_int); break;
-                    case Icmplt: instStore[i] = new Icmplt(t_int); break;
-                    case Icmple: instStore[i] = new Icmple(t_int); break;
-                    case Icmpgt: instStore[i] = new Icmpgt(t_int); break;
-                    case Icmpge: instStore[i] = new Icmpge(t_int); break;
-                    case Fcmpeq: instStore[i] = new Fcmpeq(t_int); break;
-                    case Fcmpne: instStore[i] = new Fcmpne(t_int); break;
-                    case Fcmplt: instStore[i] = new Fcmplt(t_int); break;
-                    case Fcmple: instStore[i] = new Fcmple(t_int); break;
-                    case Fcmpgt: instStore[i] = new Fcmpgt(t_int); break;
-                    case Fcmpge: instStore[i] = new Fcmpge(t_int); break;
+                    case Iload:  instStore[i] = new Load.Iload(t_int);  break;
+                    case Istore: instStore[i] = new Store.Istore(t_int); break;
+                    case Fload:  instStore[i] = new Load.Fload(t_int);  break;
+                    case Fstore: instStore[i] = new Store.Fstore(t_int); break;
+                    case Icmpeq: instStore[i] = new CmpInst.Icmpeq(t_int); break;
+                    case Icmpne: instStore[i] = new CmpInst.Icmpne(t_int); break;
+                    case Icmplt: instStore[i] = new CmpInst.Icmplt(t_int); break;
+                    case Icmple: instStore[i] = new CmpInst.Icmple(t_int); break;
+                    case Icmpgt: instStore[i] = new CmpInst.Icmpgt(t_int); break;
+                    case Icmpge: instStore[i] = new CmpInst.Icmpge(t_int); break;
+                    case Fcmpeq: instStore[i] = new CmpInst.Fcmpeq(t_int); break;
+                    case Fcmpne: instStore[i] = new CmpInst.Fcmpne(t_int); break;
+                    case Fcmplt: instStore[i] = new CmpInst.Fcmplt(t_int); break;
+                    case Fcmple: instStore[i] = new CmpInst.Fcmple(t_int); break;
+                    case Fcmpgt: instStore[i] = new CmpInst.Fcmpgt(t_int); break;
+                    case Fcmpge: instStore[i] = new CmpInst.Fcmpge(t_int); break;
                     case Goto:   instStore[i] = new Goto(t_int);   break;
                     case Print:  instStore[i] = new Print(t_int);
                 }
@@ -159,7 +161,7 @@ public abstract class VM extends LexVM
                 getToken();
                 if ( state == State.Float || state == State.FloatE )
                 {
-                    instStore[i] = new Fconst(Double.parseDouble(t));
+                    instStore[i] = new Const.Fconst(Double.parseDouble(t));
                     getToken();
                 }
                 else
@@ -293,10 +295,24 @@ public abstract class VM extends LexVM
 
     public static void main(String argv[])
     {
-        setIO( argv[0], argv[1] );
+        setIO( "a.txt", "b.txt" );
         setLex();
 
         getToken();
+
+        /*
+        /
+        /
+        /
+        /
+        /
+        /
+        /
+        /
+        /
+        */
+        getToken();
+
         instructionList();
         if ( ! t.isEmpty() )
         {
@@ -305,7 +321,7 @@ public abstract class VM extends LexVM
         }
         if ( syntaxErrorFound || errorFound )
         {
-            System.out.println("Errors found -- see the file "+argv[1]);
+            System.out.println("Errors found -- see the file ");
             closeIO();
         }
         else
@@ -313,7 +329,7 @@ public abstract class VM extends LexVM
             updateLabels();
             if ( errorFound )
             {
-                System.out.println("Errors found -- see the file "+argv[1]);
+                System.out.println("Errors found -- see the file ");
                 closeIO();
             }
             else

@@ -76,7 +76,7 @@
 	isub
 	invoke 7, 1, 0
 	imul
-	ireturn
+	ireturn	
 8:
 	invoke 1, 0, 0
 	fstore 0

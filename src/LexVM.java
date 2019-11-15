@@ -198,7 +198,7 @@ public abstract class LexVM extends IO
     // argv[1]: output file displaying a list of the tokens
 
     {
-        setIO( argv[0], argv[1] );
+        setIO( "a.txt","b.txt" );
         setLex();
 
         int i;
