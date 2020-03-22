@@ -1,0 +1,43 @@
+icoNst     : Lexical Error, invalid Error
+iloab     : Lexical Error, invalid Error
+qstore     : Lexical Error, invalid Error
+fconstt     : Lexical Error, invalid Error
+f     : Lexical Error, invalid Error
+9     : unsignedInt
+load     : Lexical Error, invalid Error
+Fstore     : Lexical Error, invalid Error
+iaddition     : Lexical Error, invalid Error
+iSUb     : Lexical Error, invalid Error
+mul     : Lexical Error, invalid Error
+div     : Lexical Error, invalid Error
+fad     : Lexical Error, invalid Error
+d     : Lexical Error, invalid Error
+fs     : Lexical Error, invalid Error
++    : Lexical Error, invalid Token
+ub     : Lexical Error, invalid Error
+fmul     : fmul
+f     : Lexical Error, invalid Error
+div     : Lexical Error, invalid Error
+intTFloat     : Lexical Error, invalid Error
+icmpfq     : Lexical Error, invalid Error
+icmpneq     : Lexical Error, invalid Error
+765     : unsignedInt
+123     : unsignedInt
+icmpls     : Lexical Error, invalid Error
+icmplw     : Lexical Error, invalid Error
+icnpgt     : Lexical Error, invalid Error
+icnpge     : Lexical Error, invalid Error
+fcmoeq     : Lexical Error, invalid Error
+fcmone     : Lexical Error, invalid Error
+fcmllt     : Lexical Error, invalid Error
+fcmlle     : Lexical Error, invalid Error
+fcm     : Lexical Error, invalid Error
+gt     : Lexical Error, invalid Error
+fcm     : Lexical Error, invalid Error
+ge     : Lexical Error, invalid Error
+GOTO     : Lexical Error, invalid Error
+nvoke     : Lexical Error, invalid Error
+retur     : Lexical Error, invalid Error
+jreturn     : Lexical Error, invalid Error
+hreturn     : Lexical Error, invalid Error
+priint     : Lexical Error, invalid Error

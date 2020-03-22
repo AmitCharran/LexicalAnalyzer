@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a489fc4f-6500-407a-bcae-670647144eaa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LexicalAnalyzer3/src/ActivationRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LexicalAnalyzer3/src/FloatingPointNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LexicalAnalyzer3/src/VM3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LexicalAnalyzer3/src/integer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/b.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ArithInst$Fadd.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ArithInst$Fadd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ArithInst$Fdiv.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ArithInst$Fdiv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ArithInst$Fmul.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ArithInst$Fmul.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ArithInst$Fsub.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ArithInst$Fsub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ArithInst$Iadd.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ArithInst$Iadd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ArithInst$Idiv.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ArithInst$Idiv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ArithInst$Imul.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ArithInst$Imul.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ArithInst$Isub.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ArithInst$Isub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmpeq.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmpeq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmpge.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmpge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmpgt.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmpgt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmple.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmplt.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmplt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmpne.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmpne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Icmpeq.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Icmpeq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Icmpge.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Icmpge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Icmpgt.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Icmpgt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Icmple.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Icmple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Icmplt.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Icmplt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Icmpne.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/CmpInst$Icmpne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/Const$Fconst.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/Const$Fconst.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/Const$Iconst.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/Const$Iconst.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/Goto.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/Goto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/Instruction.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/Instruction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/IntToFloat.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/IntToFloat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/Invoke.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/Invoke.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/LexVM.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/LexVM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/Load$Fload.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/Load$Fload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/Load$Iload.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/Load$Iload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/META-INF/LexicalAnalyzerVersion2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/Print.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/Print.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ReturnInst$FReturn.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ReturnInst$FReturn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ReturnInst$IReturn.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ReturnInst$IReturn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ReturnInst$Return.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ReturnInst$Return.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ReturnInst.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/ReturnInst.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/Store$Fstore.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/Store$Fstore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/Store$Istore.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/Store$Istore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/VM.class" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/out/production/LexicalAnalyzerVersion2/VM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/src/ArithInst.java" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/src/ArithInst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/src/CmpInst.java" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/src/CmpInst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/src/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/src/Const.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/src/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/src/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/src/Goto.java" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/src/Goto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/src/Instruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/src/Instruction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/src/IntToFloat.java" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/src/IntToFloat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/src/Invoke.java" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/src/Invoke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/src/LexVM.java" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/src/LexVM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/src/Load.java" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/src/Load.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/src/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/src/Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/src/ReturnInst.java" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/src/ReturnInst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/src/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/src/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer3/src/VM.java" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer3/src/VM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzerVersion2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzerVersion2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzerVersion2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzerVersion2/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LexicalAnalyzer/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/LexicalAnalyzerVersion2" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="694" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LexicalAnalyzerProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LexicalAnalyzerProjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LexicalAnalyzerProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LexicalAnalyzerProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="LexicalAnalyzerVersion2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LexicalAnalyzerProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LexicalAnalyzerProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="LexicalAnalyzerVersion2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a489fc4f-6500-407a-bcae-670647144eaa" name="Default Changelist" comment="" />
+      <created>1584889017960</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584889017960</updated>
+      <workItem from="1584889021997" duration="35000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="35000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="694" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LexicalAnalyzerVersion2/src/State.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LexicalAnalyzer/src/LexVM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4429" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LexicalAnalyzer/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

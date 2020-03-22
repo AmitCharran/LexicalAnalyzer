@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aec1723a-9071-4157-b874-b3f1d27a16a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ActivationRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FloatingPointNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VM3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/integer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/b.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ArithInst$Fadd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ArithInst$Fadd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ArithInst$Fdiv.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ArithInst$Fdiv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ArithInst$Fmul.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ArithInst$Fmul.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ArithInst$Fsub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ArithInst$Fsub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ArithInst$Iadd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ArithInst$Iadd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ArithInst$Idiv.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ArithInst$Idiv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ArithInst$Imul.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ArithInst$Imul.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ArithInst$Isub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ArithInst$Isub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmpeq.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmpeq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmpge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmpge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmpgt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmpgt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmplt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmplt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmpne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Fcmpne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Icmpeq.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Icmpeq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Icmpge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Icmpge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Icmpgt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Icmpgt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Icmple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Icmple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Icmplt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Icmplt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Icmpne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/CmpInst$Icmpne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/Const$Fconst.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/Const$Fconst.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/Const$Iconst.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/Const$Iconst.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/Goto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/Goto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/Instruction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/Instruction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/IntToFloat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/IntToFloat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/Invoke.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/Invoke.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/LexVM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/LexVM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/Load$Fload.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/Load$Fload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/Load$Iload.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/Load$Iload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/META-INF/LexicalAnalyzerVersion2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/Print.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/Print.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ReturnInst$FReturn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ReturnInst$FReturn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ReturnInst$IReturn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ReturnInst$IReturn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ReturnInst$Return.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ReturnInst$Return.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ReturnInst.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/ReturnInst.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/Store$Fstore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/Store$Fstore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/Store$Istore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/Store$Istore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/VM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LexicalAnalyzerVersion2/VM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArithInst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArithInst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CmpInst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CmpInst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Const.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Goto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Instruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instruction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntToFloat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntToFloat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Invoke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Invoke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LexVM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LexVM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Load.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Load.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReturnInst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReturnInst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VM.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/VM.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#2623#2640#0" expanded="true" />
+                <element signature="e#3755#3756#0" expanded="true" />
+                <element signature="e#3826#3827#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ActivationRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/VM3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="471" lean-forward="true" selection-start-line="471" selection-end-line="471" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Data.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/a.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="139" column="18" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/b.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ordinal</find>
+      <find>instruction</find>
+      <find>instStore</find>
+      <find>instName</find>
+      <find>err</find>
+      <find>invok</find>
+      <find>go</find>
+      <find>COnst</find>
+      <find>push</find>
+      <find>isE</find>
+      <find>display</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Project3" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Iconst.java" />
+        <option value="$PROJECT_DIR$/src/Fconst.java" />
+        <option value="$PROJECT_DIR$/src/Fstore.java" />
+        <option value="$PROJECT_DIR$/src/Iadd.java" />
+        <option value="$PROJECT_DIR$/src/Isub.java" />
+        <option value="$PROJECT_DIR$/src/Imul.java" />
+        <option value="$PROJECT_DIR$/src/Idiv.java" />
+        <option value="$PROJECT_DIR$/src/Fadd.java" />
+        <option value="$PROJECT_DIR$/src/Fsub.java" />
+        <option value="$PROJECT_DIR$/src/Fmul.java" />
+        <option value="$PROJECT_DIR$/src/Fdiv.java" />
+        <option value="$PROJECT_DIR$/src/Icmpeq.java" />
+        <option value="$PROJECT_DIR$/src/Icmpne.java" />
+        <option value="$PROJECT_DIR$/src/Icmplt.java" />
+        <option value="$PROJECT_DIR$/src/Icmple.java" />
+        <option value="$PROJECT_DIR$/src/Icmpgt.java" />
+        <option value="$PROJECT_DIR$/src/Icmpge.java" />
+        <option value="$PROJECT_DIR$/src/Fcmpeq.java" />
+        <option value="$PROJECT_DIR$/src/Fcmpne.java" />
+        <option value="$PROJECT_DIR$/src/Fcmplt.java" />
+        <option value="$PROJECT_DIR$/src/Fcmple.java" />
+        <option value="$PROJECT_DIR$/src/Fcmpgt.java" />
+        <option value="$PROJECT_DIR$/src/Fcmpge.java" />
+        <option value="$PROJECT_DIR$/src/Return.java" />
+        <option value="$PROJECT_DIR$/src/IReturn.java" />
+        <option value="$PROJECT_DIR$/src/FReturn.java" />
+        <option value="$PROJECT_DIR$/src/State.java" />
+        <option value="$PROJECT_DIR$/src/IO.java" />
+        <option value="$PROJECT_DIR$/src/Integer.java" />
+        <option value="$PROJECT_DIR$/src/Instruction.java" />
+        <option value="$PROJECT_DIR$/src/integer.java" />
+        <option value="$PROJECT_DIR$/src/FloatingPointNumber.java" />
+        <option value="$PROJECT_DIR$/src/IntToFloat.java" />
+        <option value="$PROJECT_DIR$/src/Invoke.java" />
+        <option value="$PROJECT_DIR$/src/Load.java" />
+        <option value="$PROJECT_DIR$/src/Print.java" />
+        <option value="$PROJECT_DIR$/src/ReturnInst.java" />
+        <option value="$PROJECT_DIR$/src/Store.java" />
+        <option value="$PROJECT_DIR$/src/Const.java" />
+        <option value="$PROJECT_DIR$/src/Goto.java" />
+        <option value="$PROJECT_DIR$/src/CmpInst.java" />
+        <option value="$PROJECT_DIR$/src/ArithInst.java" />
+        <option value="$PROJECT_DIR$/src/Data.java" />
+        <option value="$PROJECT_DIR$/src/ActivationRecord.java" />
+        <option value="$PROJECT_DIR$/a.txt" />
+        <option value="$PROJECT_DIR$/src/LexVM.java" />
+        <option value="$PROJECT_DIR$/b.txt" />
+        <option value="$PROJECT_DIR$/src/VM3.java" />
+        <option value="$PROJECT_DIR$/src/VM.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="694" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LexicalAnalyzer3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LexicalAnalyzer3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LexicalAnalyzer3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LexicalAnalyzer3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575866736242" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.VM3">
+    <configuration name="LexVM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LexVM" />
+      <module name="LexicalAnalyzerVersion2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="LexicalAnalyzerVersion2" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VM" />
+      <module name="LexicalAnalyzerVersion2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VM3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VM3" />
+      <module name="LexicalAnalyzerVersion2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.LexVM" />
+      <item itemvalue="Application.VM" />
+      <item itemvalue="Application.VM3" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.VM3" />
+        <item itemvalue="Application.VM" />
+        <item itemvalue="Application.LexVM" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aec1723a-9071-4157-b874-b3f1d27a16a8" name="Default Changelist" comment="" />
+      <created>1572062829128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572062829128</updated>
+      <workItem from="1572062830774" duration="13398000" />
+      <workItem from="1572296628652" duration="4057000" />
+      <workItem from="1572800473064" duration="211000" />
+      <workItem from="1572975722894" duration="43000" />
+      <workItem from="1573001444380" duration="778000" />
+      <workItem from="1573172429159" duration="666000" />
+      <workItem from="1573540597968" duration="549000" />
+      <workItem from="1573837209935" duration="9000" />
+      <workItem from="1573837252286" duration="9000" />
+      <workItem from="1573838046903" duration="40384000" />
+      <workItem from="1575604534180" duration="53000" />
+      <workItem from="1575604807546" duration="1581000" />
+      <workItem from="1575865420058" duration="263000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="67815000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="694" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26979" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32890365" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23255815" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32890365" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32956383" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32956383" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32890365" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19435216" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32890365" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Idiv.java" />
+    <entry file="file://$PROJECT_DIR$/src/Fadd.java" />
+    <entry file="file://$PROJECT_DIR$/src/Fsub.java" />
+    <entry file="file://$PROJECT_DIR$/src/Fmul.java" />
+    <entry file="file://$PROJECT_DIR$/src/Fdiv.java" />
+    <entry file="file://$PROJECT_DIR$/src/Fconst.java" />
+    <entry file="file://$PROJECT_DIR$/src/Icmpeq.java" />
+    <entry file="file://$PROJECT_DIR$/src/Icmpne.java" />
+    <entry file="file://$PROJECT_DIR$/src/Icmplt.java" />
+    <entry file="file://$PROJECT_DIR$/src/Icmple.java" />
+    <entry file="file://$PROJECT_DIR$/src/Icmpgt.java" />
+    <entry file="file://$PROJECT_DIR$/src/Icmpge.java" />
+    <entry file="file://$PROJECT_DIR$/src/Fcmpeq.java" />
+    <entry file="file://$PROJECT_DIR$/src/Fcmpne.java" />
+    <entry file="file://$PROJECT_DIR$/src/Fcmplt.java" />
+    <entry file="file://$PROJECT_DIR$/src/Fcmple.java" />
+    <entry file="file://$PROJECT_DIR$/src/Fcmpge.java" />
+    <entry file="file://$PROJECT_DIR$/src/Iadd.java" />
+    <entry file="file://$PROJECT_DIR$/src/Return.java" />
+    <entry file="file://$PROJECT_DIR$/src/IReturn.java" />
+    <entry file="file://$PROJECT_DIR$/src/FReturn.java" />
+    <entry file="file://$PROJECT_DIR$/src/Iload.java" />
+    <entry file="file://$PROJECT_DIR$/src/Istore.java" />
+    <entry file="file://$PROJECT_DIR$/src/Fcmpgt.java" />
+    <entry file="file://$PROJECT_DIR$/src/Isub.java" />
+    <entry file="file://$PROJECT_DIR$/u6.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="2" lean-forward="true" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Print.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="733" column="20" lean-forward="true" selection-start-line="733" selection-start-column="20" selection-end-line="733" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LexVM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3000">
+          <caret line="200" column="30" selection-start-line="200" selection-start-column="30" selection-end-line="200" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Goto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IntToFloat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#71#72#0" expanded="true" />
+            <element signature="e#106#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Invoke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="65" column="15" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding>
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1055" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Override.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Instruction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#75#76#0" expanded="true" />
+            <element signature="e#108#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FloatingPointNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReturnInst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArithInst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="24" selection-start-line="24" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CmpInst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#75#76#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Load.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="139" column="18" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VM3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="471" lean-forward="true" selection-start-line="471" selection-end-line="471" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ActivationRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#2623#2640#0" expanded="true" />
+            <element signature="e#3755#3756#0" expanded="true" />
+            <element signature="e#3826#3827#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LexicalAnalyzerVersion2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

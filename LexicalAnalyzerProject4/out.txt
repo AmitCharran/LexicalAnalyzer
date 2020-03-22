@@ -1,0 +1,2 @@
+newIntArray : Lexical Error, invalid token
+newIntArray  -- unexpected symbol
